@@ -28,13 +28,13 @@ export default function Navbar() {
     <nav className="bg-gray-900 text-white shadow-md">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         {/* Logo */}
-        <a
+        <Link
           href="/"
           onClick={handleLogoClick}
           className="text-xl font-bold text-teal-400 cursor-pointer"
         >
           ImgCompressor
-        </a>
+        </Link>
 
         {/* Desktop Links */}
         <div className="hidden sm:flex space-x-6">
