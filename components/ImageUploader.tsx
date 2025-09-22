@@ -19,7 +19,7 @@ export default function ImageUploader() {
     formData.append("image", file);
 
     try {
-      const response = await fetch("http://localhost:4000/compress", {
+      const response = await fetch("https://backend-my-app-yif1.onrender.com/compress", {
         method: "POST",
         body: formData,
       });
